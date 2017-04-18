@@ -1,7 +1,10 @@
-# test coverage for  [core-decorators (v0.17.0)](https://github.com/jayphelps/core-decorators.js)  [![npm package](https://img.shields.io/npm/v/npmtest-core-decorators.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-core-decorators) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-core-decorators.svg)](https://travis-ci.org/npmtest/node-npmtest-core-decorators)
+# npmtest-core-decorators
+
+#### test coverage for  [core-decorators (v0.17.0)](https://github.com/jayphelps/core-decorators.js)  [![npm package](https://img.shields.io/npm/v/npmtest-core-decorators.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-core-decorators) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-core-decorators.svg)](https://travis-ci.org/npmtest/node-npmtest-core-decorators)
+
 #### Library of JavaScript stage-0 decorators (aka ES2016/ES7 decorators but that's not accurate!) inspired by languages that come with built-ins like @​override, @​deprecate, @​autobind, @​mixin and more! Works great with React/Angular/more!
 
-[![NPM](https://nodei.co/npm/core-decorators.png?downloads=true)](https://www.npmjs.com/package/core-decorators)
+[![NPM](https://nodei.co/npm/core-decorators.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/core-decorators)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-core-decorators/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-core-decorators/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-core-decorators/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-core-decorators/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-core-decorators/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-core-decorators/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-core-decorators/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-core-decorators/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-core-decorators/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-core-decorators/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-core-decorators%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-core-decorators/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-core-decorators/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-core-decorators/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-core-decorators/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-core-decorators%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-core-decorators/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-core-decorators/build/test-report.html](https://npmtest.github.io/node-npmtest-core-decorators/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-core-decorators/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-core-decorators/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-core-decorators/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-core-decorators/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-core-decorators/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-core-decorators/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-core-decorators/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +36,7 @@
 
 {
     "author": {
-        "name": "Jay Phelps",
-        "email": "hello@jayphelps"
+        "name": "Jay Phelps"
     },
     "bugs": {
         "url": "https://github.com/jayphelps/core-decorators.js/issues"
@@ -92,14 +100,12 @@
     "main": "lib/core-decorators.js",
     "maintainers": [
         {
-            "name": "jayphelps",
-            "email": "hello@jayphelps.com"
+            "name": "jayphelps"
         }
     ],
     "module": "es/core-decorators.js",
     "name": "core-decorators",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jayphelps/core-decorators.js.git"
