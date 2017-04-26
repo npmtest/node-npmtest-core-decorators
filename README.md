@@ -1,6 +1,6 @@
 # npmtest-core-decorators
 
-#### test coverage for  [core-decorators (v0.17.0)](https://github.com/jayphelps/core-decorators.js)  [![npm package](https://img.shields.io/npm/v/npmtest-core-decorators.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-core-decorators) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-core-decorators.svg)](https://travis-ci.org/npmtest/node-npmtest-core-decorators)
+#### basic test coverage for  [core-decorators (v0.17.0)](https://github.com/jayphelps/core-decorators.js)  [![npm package](https://img.shields.io/npm/v/npmtest-core-decorators.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-core-decorators) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-core-decorators.svg)](https://travis-ci.org/npmtest/node-npmtest-core-decorators)
 
 #### Library of JavaScript stage-0 decorators (aka ES2016/ES7 decorators but that's not accurate!) inspired by languages that come with built-ins like @​override, @​deprecate, @​autobind, @​mixin and more! Works great with React/Angular/more!
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-core-decorators/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-core-decorators/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-core-decorators/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-core-decorators/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-core-decorators/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-core-decorators/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-core-decorators/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-core-decorators/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-core-decorators/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-core-decorators/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-core-decorators/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-core-decorators/build/coverage.html/index.html)
 
@@ -116,7 +116,8 @@
         "build-es": "BABEL_ENV=es babel --out-dir es src",
         "test": "npm run build && mocha --compilers js:babel-core/register --require babel-polyfill \"test/**/*.spec.js\""
     },
-    "version": "0.17.0"
+    "version": "0.17.0",
+    "bin": {}
 }
 ```
 
